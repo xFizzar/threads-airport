@@ -13,7 +13,7 @@ public class Main {
 
         ArrayList<Plane> planes = new ArrayList<>();
 
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 4; i++) {
             if (Math.random() > 0.5){
                 planes.add(new Plane(i, runwayAB, runwayCD, tower));
             } else {

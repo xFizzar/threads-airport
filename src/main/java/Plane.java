@@ -5,8 +5,6 @@ public class Plane implements Runnable{
 
     private final int number;
 
-    private boolean crossedE = false;
-
     private Tower tower;
 
     private PlaneStates planeState;

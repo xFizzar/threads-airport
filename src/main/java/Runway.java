@@ -5,11 +5,10 @@ public class Runway{
 
     private final RunwayDeclaration runwayDec;
 
-    private boolean isBlocked;
+    private boolean isBlocked = false;
 
     public Runway(RunwayDeclaration dec) {
         this.runwayDec = dec;
-        this.isBlocked = false;
     }
 
 
